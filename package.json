@@ -1,0 +1,13 @@
+{
+  "name": "naser-rouhi-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Machine-readable resume of Naser Rouhi",
+  "scripts": {
+    "validate": "resume validate resume.json",
+    "export": "resume export resume.html --resume resume.json"
+  },
+  "devDependencies": {
+    "resume-cli": "^3.0.8"
+  }
+}

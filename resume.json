@@ -1,0 +1,376 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Naser Rouhi",
+    "label": "Senior Software Engineer",
+    "email": "naserrouhi.nomonia@gmail.com",
+    "phone": "+98 912 806 1286",
+    "url": "https://github.com/naserrouhi",
+    "summary": "Senior Software Engineer with 8+ years building and scaling web applications in .NET, C#, and ReactJS. Focused on Clean Architecture, microservices, CQRS/DDD, test-driven development, database optimization, and high-throughput APIs across finance, aviation, healthcare, and EHS products. Experienced in globally distributed remote teams, with measurable impact including 70% faster reporting and 40% revenue growth after launch.",
+    "location": {
+      "city": "Tehran",
+      "countryCode": "IR"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "naser-rouhi-nomonia",
+        "url": "https://www.linkedin.com/in/naser-rouhi-nomonia/"
+      },
+      {
+        "network": "GitHub",
+        "username": "naserrouhi",
+        "url": "https://github.com/naserrouhi"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Frontline Data Solutions",
+      "location": "Texas, USA (Remote)",
+      "position": "Back-End Developer",
+      "startDate": "2025-09",
+      "endDate": "",
+      "summary": "Building and modernizing backend services for an Environmental, Health & Safety software suite.",
+      "highlights": [
+        "Rewrote a legacy system into a modular REST API architecture for EHS Suite modules including MOC, ACT, and LMS, improving scalability and reliability while accelerating development velocity.",
+        "Designed and optimized high-performance queries and caching layers to support offline synchronization for the mobile app under intermittent connectivity.",
+        "Built observability tooling with the ELK stack, cutting average issue-resolution time by more than 40%.",
+        "Collaborated with globally distributed teams to keep cross-module data integration secure and efficient."
+      ],
+      "keywords": [
+        ".NET",
+        "REST APIs",
+        "Redis",
+        "ELK",
+        "EHS",
+        "Offline Sync"
+      ]
+    },
+    {
+      "name": "Alibaba Travels Co.",
+      "location": "Tehran, Iran",
+      "position": "Senior Software Engineer",
+      "startDate": "2024-03",
+      "endDate": "2025-08",
+      "summary": "Architected and developed Arobus, a B2C bus-ticketing platform with integrated back-office operations.",
+      "highlights": [
+        "Developed Arobus, enabling end-to-end ticket sales and operational management.",
+        "Architected the platform around microservices and Domain-Driven Design, keeping domain boundaries clean and maintainable.",
+        "Helped grow the user base by more than 50% and increase company revenue by 40% after launch."
+      ],
+      "keywords": [
+        ".NET",
+        "Microservices",
+        "DDD",
+        "B2C",
+        "Ticketing"
+      ]
+    },
+    {
+      "name": "Porter Airlines · Car Media · FreightNav",
+      "location": "Ontario, Canada (Remote)",
+      "position": "Full-Stack / Back-End Developer (Part-time)",
+      "startDate": "2020-07",
+      "endDate": "2025-02",
+      "summary": "Delivered backend and full-stack systems across aviation, automotive data, and logistics products.",
+      "highlights": [
+        "Improved Porter Airlines fuel-pricing and rebooking platforms, cutting query time by 70% and automating workflows to reduce processing time by 60%.",
+        "Built scalable microservices and APIs for Car Media, reaching 99.9% data synchronization and improving vehicle-search speed by 80% with Elasticsearch.",
+        "Delivered real-time communication and shipment-tracking modules at FreightNav using SignalR and Blazor.",
+        "Strengthened reliability with RabbitMQ and ELK observability while applying Clean Architecture and TDD across all three codebases."
+      ],
+      "keywords": [
+        ".NET",
+        "Microservices",
+        "Elasticsearch",
+        "RabbitMQ",
+        "SignalR",
+        "Blazor",
+        "ELK",
+        "TDD"
+      ]
+    },
+    {
+      "name": "Asa Co. (Agah Broker)",
+      "location": "Tehran, Iran",
+      "position": "Back-End Developer",
+      "startDate": "2021-07",
+      "endDate": "2024-02",
+      "summary": "Modernized financial reporting and learning-management systems for a brokerage environment.",
+      "highlights": [
+        "Rebuilt legacy bookkeeping and LMS systems and redesigned database schemas for large-scale financial reporting.",
+        "Applied Clean Architecture, CQRS, and DDD to create maintainable modular codebases.",
+        "Built REST APIs and admin panels that supported a 30–40% increase in user engagement after launch.",
+        "Worked with cross-functional teams to improve data consistency and business-process automation."
+      ],
+      "keywords": [
+        ".NET",
+        "CQRS",
+        "DDD",
+        "Clean Architecture",
+        "Redis",
+        "Financial Systems"
+      ]
+    },
+    {
+      "name": "Geeks Ltd",
+      "location": "London, UK (Remote)",
+      "position": "Full-Stack / Back-End Developer",
+      "startDate": "2020-07",
+      "endDate": "2021-06",
+      "summary": "Built healthcare workflow and patient-management software.",
+      "highlights": [
+        "Built patient-management and workflow-automation systems using ELSA Workflow and .NET Core.",
+        "Implemented testing and orchestration modules that improved reliability and reduced deployment issues.",
+        "Contributed frontend modules with Razor and jQuery to streamline internal processes."
+      ],
+      "keywords": [
+        ".NET Core",
+        "ELSA Workflow",
+        "Razor",
+        "jQuery",
+        "Healthcare"
+      ]
+    },
+    {
+      "name": "MyDigipay (Digikala Group)",
+      "location": "Tehran, Iran",
+      "position": "Full-Stack / Back-End Developer",
+      "startDate": "2017-10",
+      "endDate": "2020-06",
+      "summary": "Developed financial systems, reporting services, and internal platforms for a large digital-commerce ecosystem.",
+      "highlights": [
+        "Developed core financial systems, improving processing speed and data accuracy across several products.",
+        "Optimized SQL queries and restructured legacy code, reducing production error reports and API response times.",
+        "Built centralized reporting services integrating SQL Server, MongoDB, and Oracle for real-time analytics.",
+        "Collaborated with business teams to digitize internal tools and improve operational efficiency and customer acquisition."
+      ],
+      "keywords": [
+        "C#",
+        ".NET",
+        "SQL Server",
+        "MongoDB",
+        "Oracle",
+        "Financial Systems"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "EHS Suite — Environmental, Health & Safety Management",
+      "description": "Compliance platform for industrial clients covering MOC, ACT, and LMS modules with an offline-capable mobile app.",
+      "startDate": "2025-09",
+      "endDate": "",
+      "url": "https://ehsqa1.fldata.com/",
+      "keywords": [
+        ".NET",
+        "Redis",
+        "ELK",
+        "REST APIs",
+        "Offline Sync"
+      ],
+      "roles": [
+        "Back-End Developer"
+      ],
+      "type": "Enterprise Platform"
+    },
+    {
+      "name": "Arobus — B2C Bus Ticketing",
+      "description": "Consumer ticketing platform selling tickets directly from providers with an integrated back-office system.",
+      "startDate": "2024-03",
+      "endDate": "2025-08",
+      "url": "https://arobus.ir/",
+      "keywords": [
+        ".NET",
+        "Microservices",
+        "DDD"
+      ],
+      "roles": [
+        "Senior Software Engineer"
+      ],
+      "type": "B2C Platform"
+    },
+    {
+      "name": "Rebook Pump — Airline Rebooking & Fuel Management",
+      "description": "Modernized airline rebooking and fuel-pricing platforms with workflow automation.",
+      "startDate": "2020-07",
+      "endDate": "2025-02",
+      "url": "",
+      "keywords": [
+        ".NET",
+        "RabbitMQ",
+        "ELK"
+      ],
+      "roles": [
+        "Full-Stack / Back-End Developer"
+      ],
+      "type": "Aviation Platform"
+    },
+    {
+      "name": "Bookkeeping Platform",
+      "description": "Multi-company financial reporting platform rebuilt from a legacy system with a new schema, query optimization, and support for large datasets.",
+      "startDate": "2022-06",
+      "endDate": "2024-02",
+      "url": "",
+      "keywords": [
+        "CQRS",
+        "Redis",
+        ".NET",
+        "Database Optimization"
+      ],
+      "roles": [
+        "Back-End Developer"
+      ],
+      "type": "Financial Platform"
+    },
+    {
+      "name": "Agah LMS — Financial Training Platform",
+      "description": "Back-end and admin panel for a brokerage learning platform covering courses, tracking, and reporting.",
+      "startDate": "2021-07",
+      "endDate": "2022-05",
+      "url": "https://academy.agah.com/",
+      "keywords": [
+        "DDD",
+        "TDD",
+        ".NET"
+      ],
+      "roles": [
+        "Back-End Developer"
+      ],
+      "type": "Learning Platform"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Shahid Beheshti University",
+      "url": "",
+      "area": "Civil Engineering",
+      "studyType": "B.Sc.",
+      "startDate": "2013",
+      "endDate": "2017",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Languages",
+      "level": "Advanced",
+      "keywords": [
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "name": "Back-End",
+      "level": "Advanced",
+      "keywords": [
+        ".NET",
+        "ASP.NET Core",
+        "Entity Framework Core",
+        "LINQ",
+        "REST APIs",
+        "SignalR",
+        "Blazor",
+        "ELSA Workflow"
+      ]
+    },
+    {
+      "name": "Front-End",
+      "level": "Professional",
+      "keywords": [
+        "ReactJS",
+        "Razor",
+        "jQuery"
+      ]
+    },
+    {
+      "name": "Architecture & Design",
+      "level": "Advanced",
+      "keywords": [
+        "Clean Architecture",
+        "Microservices",
+        "CQRS",
+        "DDD",
+        "SOLID",
+        "Design Patterns",
+        "OOP"
+      ]
+    },
+    {
+      "name": "Data & Messaging",
+      "level": "Advanced",
+      "keywords": [
+        "SQL Server",
+        "PostgreSQL",
+        "MongoDB",
+        "Oracle",
+        "Elasticsearch",
+        "Redis",
+        "RabbitMQ",
+        "Kafka"
+      ]
+    },
+    {
+      "name": "DevOps & Cloud",
+      "level": "Professional",
+      "keywords": [
+        "Docker",
+        "CI/CD",
+        "Git",
+        "Azure",
+        "AWS",
+        "ELK Stack"
+      ]
+    },
+    {
+      "name": "Engineering Practices",
+      "level": "Advanced",
+      "keywords": [
+        "TDD",
+        "BDD",
+        "Unit Testing",
+        "Integration Testing",
+        "AI-assisted development",
+        "Custom AI skill / tool authoring"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Persian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    }
+  ],
+  "awards": [
+    {
+      "title": "4th Place — Regional Mathematics Olympiad",
+      "date": "2006 & 2007",
+      "awarder": "District 20, Tehran",
+      "summary": "Placed 4th in the Regional Mathematics Olympiad in two consecutive years."
+    }
+  ],
+  "meta": {
+    "canonical": "https://github.com/naserrouhi/resume.json",
+    "version": "1.0.0",
+    "lastModified": "2026-08-08",
+    "theme": "engineering",
+    "status": "open-to-relocation",
+    "focus": [
+      ".NET",
+      "Backend Engineering",
+      "Distributed Systems",
+      "Software Architecture"
+    ],
+    "note": "Professional work may include private/NDA-covered repositories; this JSON focuses on public resume information."
+  }
+}
